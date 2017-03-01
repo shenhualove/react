@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/ReactComponentBrowserEnvironment",function(e,o,r){"use strict";var d=e("node_modules/react-dom/lib/DOMChildrenOperations"),n=e("node_modules/react-dom/lib/ReactDOMIDOperations"),s={processChildrenUpdates:n.dangerouslyProcessChildrenUpdates,replaceNodeWithMarkup:d.dangerouslyReplaceNodeWithMarkup};r.exports=s});

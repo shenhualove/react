@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/SyntheticFocusEvent",function(e,t,n){"use strict";function l(e,t,n,l){return o.call(this,e,t,n,l)}var o=e("node_modules/react-dom/lib/SyntheticUIEvent"),c={relatedTarget:null};o.augmentClass(l,c),n.exports=l});

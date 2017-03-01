@@ -1,0 +1,1 @@
+define("js/actions/index",function(e,i){"use strict";function t(e){return{type:"SET_VISIBILITY_FILTER",filter:e}}Object.defineProperty(i,"__esModule",{value:!0}),i.setVisibilityFilter=t});

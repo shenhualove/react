@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/ReactDOMIDOperations",function(e,o,n){"use strict";var t=e("node_modules/react-dom/lib/DOMChildrenOperations"),d=e("node_modules/react-dom/lib/ReactDOMComponentTree"),r={dangerouslyProcessChildrenUpdates:function(e,o){var n=d.getNodeFromInstance(e);t.processUpdates(n,o)}};n.exports=r});

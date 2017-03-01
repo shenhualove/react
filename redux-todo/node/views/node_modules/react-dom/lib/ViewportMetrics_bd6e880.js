@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/ViewportMetrics",function(r,e,c){"use strict";var o={currentScrollLeft:0,currentScrollTop:0,refreshScrollValues:function(r){o.currentScrollLeft=r.x,o.currentScrollTop=r.y}};c.exports=o});

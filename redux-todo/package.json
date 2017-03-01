@@ -1,0 +1,15 @@
+{
+  "name": "reacts",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "process": "^0.11.9",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.3.2",
+    "redux-thunk": "^2.2.0"
+  }
+}

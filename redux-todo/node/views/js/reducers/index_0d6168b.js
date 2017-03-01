@@ -1,0 +1,1 @@
+define("js/reducers/index",function(e,t,r){"use strict";function d(e,t){switch(void 0===e&&(e=u),t.type){case"SET_VISIBILITY_FILTER":return Object.assign({},e,{filer:t.filter});default:return e}}Object.defineProperty(t,"__esModule",{value:!0});var i=e("node_modules/redux/lib/index"),u={filer:"SHOW_ALL"},n=i.combineReducers({todoApp:d});t["default"]=n,r.exports=t["default"]});

@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "/js/router.js"
+    ],
+    "names": [],
+    "mappings": ";;;;;;;qBAGkB,OAAO;;;;wBACJ,WAAW;;;;2BACuB,cAAc;;0BAC5C,aAAa;;qBACV,OAAO;;6BACnB,kBAAkB;;;;wBACjB,YAAY;;;;AAE7B,IAAI,KAAK,GAAC,8CAAiB,CAAC;;AAE5B,sBAAS,MAAM,CACX;;MAAU,KAAK,EAAE,KAAK,AAAC;IACvB;;UAAQ,OAAO,6BAAiB;QAC5B;;cAAQ,IAAI,EAAC,GAAG;YACZ,4DAAY,SAAS,4BAAM,GAAG;SAC1B;KACH;CACE,EACZ,QAAQ,CAAC,IAAI,CAAC,CAAA",
+    "file": "/js/router.js",
+    "sourcesContent": [
+        "/**\n * Created by apple on 17/2/27.\n */\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Router, Route,browserHistory,IndexRoute} from 'react-router';\nimport { Provider } from 'react-redux';\nimport { createStore } from 'redux';\nimport App from './components/app';\nimport toDo from './reducers';\n\nlet store=createStore(toDo);\n\nReactDOM.render((\n    <Provider store={store}>\n    <Router history={browserHistory}>\n        <Route  path=\"/\" >\n            <IndexRoute component={App} />\n        </Route>\n    </Router>\n    </Provider>\n), document.body)"
+    ]
+}

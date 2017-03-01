@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/SyntheticCompositionEvent",function(t,e,n){"use strict";function o(t,e,n,o){return i.call(this,t,e,n,o)}var i=t("node_modules/react-dom/lib/SyntheticEvent"),l={data:null};i.augmentClass(o,l),n.exports=o});

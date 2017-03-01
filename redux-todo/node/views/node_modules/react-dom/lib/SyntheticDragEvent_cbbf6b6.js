@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/SyntheticDragEvent",function(e,t,n){"use strict";function a(e,t,n,a){return o.call(this,e,t,n,a)}var o=e("node_modules/react-dom/lib/SyntheticMouseEvent"),r={dataTransfer:null};o.augmentClass(a,r),n.exports=a});

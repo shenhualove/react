@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/ReactHostOperationHistoryHook",function(t,o,e){"use strict";var n=[],r={onHostOperation:function(t){n.push(t)},clearHistory:function(){r._preventClearing||(n=[])},getHistory:function(){return n}};e.exports=r});

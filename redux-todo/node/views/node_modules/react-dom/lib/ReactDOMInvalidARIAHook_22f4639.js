@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/ReactDOMInvalidARIAHook",function(e,o,n){"use strict";var t=e("node_modules/react-dom/lib/DOMProperty"),d=(e("node_modules/react/lib/ReactComponentTreeHook"),e("node_modules/fbjs/lib/warning"),new RegExp("^(aria)-["+t.ATTRIBUTE_NAME_CHAR+"]*$"),{onBeforeMountComponent:function(e,o){},onBeforeUpdateComponent:function(e,o){}});n.exports=d});

@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/SyntheticInputEvent",function(t,e,n){"use strict";function i(t,e,n,i){return l.call(this,t,e,n,i)}var l=t("node_modules/react-dom/lib/SyntheticEvent"),o={data:null};l.augmentClass(i,o),n.exports=i});

@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/createMicrosoftUnsafeLocalFunction",function(n,e,o){"use strict";var c=function(n){return"undefined"!=typeof MSApp&&MSApp.execUnsafeLocalFunction?function(e,o,c,t){MSApp.execUnsafeLocalFunction(function(){return n(e,o,c,t)})}:n};o.exports=c});

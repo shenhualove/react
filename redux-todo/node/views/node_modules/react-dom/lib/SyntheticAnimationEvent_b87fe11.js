@@ -1,0 +1,1 @@
+define("node_modules/react-dom/lib/SyntheticAnimationEvent",function(e,n,t){"use strict";function l(e,n,t,l){return i.call(this,e,n,t,l)}var i=e("node_modules/react-dom/lib/SyntheticEvent"),o={animationName:null,elapsedTime:null,pseudoElement:null};i.augmentClass(l,o),t.exports=l});
